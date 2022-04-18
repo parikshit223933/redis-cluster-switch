@@ -1,11 +1,11 @@
 # stop all running cluster nodes
-./create-cluster stop
+sh ./create-cluster stop
 
 # Clean cluster node conf and log files 
-./create-cluster clean
+sh ./create-cluster clean
 
 # Start cluster nodes
-./create-cluster start
+sh ./create-cluster start
 
 # start redis server with provided configuration
 redis-server ./redis.conf
