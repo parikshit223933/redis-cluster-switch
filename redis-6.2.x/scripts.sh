@@ -26,4 +26,5 @@ redis-cli flushall
 redis-cli cluster reset
 
 # Make a call for all nodes
-redis-cli --cluster 127.0.0.1:6379 call keys "*"
+redis-cli --cluster call  127.0.0.1:6379 keys "*"
+
